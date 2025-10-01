@@ -22,4 +22,7 @@ The Registrar: ODR system is a web-based application designed to streamline the 
 ## Authors
 
 - [@NightsProject](https://github.com/NightsProject)
+- [@karoltacang](https://github.com/karoltacang)
+- [@BolandoKen](https://github.com/BolandoKen)
+- [@Ajman0525](https://github.com/Ajman0525)
 
