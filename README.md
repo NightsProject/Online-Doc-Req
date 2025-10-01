@@ -18,6 +18,40 @@ The Registrar: ODR system is a web-based application designed to streamline the 
 
 - 
 
+## Development
+install nodejs npm 
+
+start django server
+Step 1
+```bash
+  pipenv shell
+```
+Step 2
+```bash
+  cd backend
+```
+Step 3
+```bash
+   python manage.py migrate
+```
+Step 4
+```bash
+   python manage.py runserver
+```
+
+start nodejs server
+Step 1
+```bash
+   new terminal
+```
+Step 2
+```bash
+   cd frontend
+```
+Step 3
+```bash
+   nmp start
+```
 
 ## Authors
 
