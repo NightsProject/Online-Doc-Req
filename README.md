@@ -1,13 +1,17 @@
 # Online-Doc-Req
 
-File Structure
-project/
+Project Structure
+Online-Doc-Req/
 │
-├── Pipfile / Pipfile.lock    # Python deps (Django, DRF, corsheaders…)
-├── backend/                  # Django project
-│   └── api/                  # Django app
-│
-└── frontend/                 # React + Tailwind (Node deps in package.json)
+├── Pipfile                 # Django + DRF
+├── backend/                # Django project
+│   ├── backend/
+│   │   └── settings.py
+│   ├── api/
+│   │   ├── views.py
+│   │   └── urls.py
+│   └── manage.py
+└── frontend/               # React frontend
     ├── package.json
-    ├── tailwind.config.js
     └── src/
+
